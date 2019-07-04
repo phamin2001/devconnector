@@ -86,7 +86,6 @@ router.post('/', [
                 res.json({
                     token
                 });
-
             });
 
     } catch (err) {
