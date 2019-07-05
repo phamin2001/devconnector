@@ -2,11 +2,12 @@ const express = require('express');
 const router = express.Router();
 const auth = require('../../middleware/auth');
 const Profile = require('../../models/Profile');
+const User = require('../../models/User');
 
 const {
     check,
     validationResult
-} = require('express-validator/check');
+} = require('express-validator');
 
 
 // @route   GET api/profile/me
@@ -101,10 +102,10 @@ router.post('/', [auth, [
                 new: true
             });
 
-            res.json(profile);
+            return res.json(profile);
         }
 
-        // New profile
+        // Create
         profile = new Profile(profileFields);
         await profile.save();
 

@@ -10,7 +10,7 @@ const User = require('../../models/User');
 const {
     check,
     validationResult
-} = require('express-validator/check');
+} = require('express-validator');
 
 
 // @route   POST api/users
