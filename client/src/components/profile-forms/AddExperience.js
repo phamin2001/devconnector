@@ -100,7 +100,6 @@ const AddExperience = ({ addExperience, history }) => {
             disabled={toDateDisabled ? 'disabled' : ''}
           />
         </div>
-
         <div class='form-group'>
           <textarea
             name='description'
