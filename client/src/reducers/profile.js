@@ -6,7 +6,6 @@ import {
   GET_PROFILES,
   GET_REPOS
 } from '../actions/types';
-import { STATES } from 'mongoose';
 
 const initialState = {
   profile: null,
