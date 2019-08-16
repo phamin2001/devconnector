@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://amin123:amin123@devconnector-vokbi.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "fe9ebb0d71e360adfbff",
+  "githubSecret": "6a00c90345762f6e7f9d8081294b7fd1ac54433c"
+}
